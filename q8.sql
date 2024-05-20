@@ -1,4 +1,4 @@
--- Günlük aşılamaları medyan değerlerle doldur
+
 UPDATE country_vaccination_stats cvs
 SET daily_vaccinations = (
     SELECT COALESCE(
